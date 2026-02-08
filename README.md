@@ -7,19 +7,19 @@ Python IDE with Numpy and Scipy.
 
 # Program:
 ```
-#Huffman and Shannon-Fano coding
+0#Huffman and Shannon-Fano coding
 import numpy as np
-import math 
+import math
 L  = 0
 hs = 0
 p = []
 lk = []
 n = int(input("Enter the number of Samples : "))
-for i in range (n): 
-    pr = float(input(f"Enter the probability of sample values {i + 1}: "))  
+for i in range (n):
+    pr = float(input(f"Enter the probability of sample values {i + 1}: "))
     p.append(pr)
-for j in range (n): 
-    l = float(input(f"Enter the length of the sample values {j + 1}: "))  
+for j in range (n):
+    l = float(input(f"Enter the length of the sample values {j + 1}: "))
     lk.append(l)
 # Avg length of the code word
 for k in range (n):
@@ -33,8 +33,8 @@ hs = round(hs,3)
 # Efficiency
 eff =  hs / L
 eff = round(eff,3)
-# Redundancy 
-red =  round(1 - eff,3) 
+# Redundancy
+red =  round(1 - eff,3)
 # Variance
 var = 0
 for k in range(n):
@@ -48,14 +48,15 @@ print(f"Redudancy is : {red}")
 print(f"Variance is : {var}")
 ```
 # Calculation:
-![WhatsApp Image 2025-09-01 at 12 33 13_a5dc81da](https://github.com/user-attachments/assets/17ddac48-1f60-4992-b789-681f5465a5a7)
-![WhatsApp Image 2025-09-01 at 12 33 11_1388be16](https://github.com/user-attachments/assets/8ee3cd3e-b2a3-4bc3-8cff-d302c090fd6b)
+<img width="1131" height="957" alt="image" src="https://github.com/user-attachments/assets/3e3b23e6-2412-4d81-8798-36c2ff91d676" />
 
+<img width="939" height="971" alt="image" src="https://github.com/user-attachments/assets/a1857019-e894-4d97-8e50-614b614c25f7" />
 
 
 
 # Output
-![image](https://github.com/user-attachments/assets/38be31cf-18e4-4dfe-86bf-9da261cb469d)
+
+<img width="489" height="344" alt="image" src="https://github.com/user-attachments/assets/028c89ff-f642-4403-8d68-02e146538e46" />
 
 # Results:
 
