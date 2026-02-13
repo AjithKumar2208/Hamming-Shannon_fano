@@ -7,7 +7,7 @@ Python IDE with Numpy and Scipy.
 
 # Program:
 ```
-0#Huffman and Shannon-Fano coding
+#Huffman and Shannon-Fano coding
 import numpy as np
 import math
 L  = 0
