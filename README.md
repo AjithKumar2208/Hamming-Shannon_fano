@@ -1,3 +1,5 @@
+# NAME : AJITH KUMAR M
+# REG NO : 212224060010
 # Huffman-Shannon_fano
 # Aim:
 Consider a discrete memoryless source with symbols and statistics {0.4,0.2,0.2,0.1,0.1} for its output. 
